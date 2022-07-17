@@ -25,10 +25,8 @@ int main(int argc, char* argv[])
     scene->SetCamera(cameraEntity, cameraComponent);
     scene->AddEntity(cameraEntity);
 
-
     auto effect = new ToricExpFogEffect(cubemapTexture, 0.002, DirectX::Colors::PowderBlue);
 
-    //auto charWalkComponent = new WalkComponent(200, 4);
     auto charInputComponent = new InputComponent();
 
     auto entity1 = new Entity();
@@ -71,23 +69,6 @@ int main(int argc, char* argv[])
 
             }));
     }
-
-    /*
-    {
-        auto childEntity = new Entity();
-        auto ttc2 = new ToricTransformComponent(3, 0, 0);
-        ttc2->SetParent(ttc1);
-        auto tmc2 = EuclideanMeshComponentFactory::CreateCube(1);
-        tmc2->SetEffect(effect);
-        childEntity->AddComponent<ToricTransformComponent>(ttc2);
-        childEntity->AddComponent<MeshComponent>(tmc2);
-        scene->AddEntity(childEntity);
-
-        childEntity->AddComponent<UpdaterComponent>(new UpdaterComponent([](double delta, Entity* pEntity) {
-            pEntity->GetComponent<ToricTransformComponent>()->RotateGlobal(0, 2 * delta, 0);
-            }));
-    }
-    */
 
     return Game::GetInstance().StartGame();
 }

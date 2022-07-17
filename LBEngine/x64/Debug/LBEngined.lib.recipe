@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs />
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>C:\Denis Learning\repos\LBEngine2\LBEngine\bin64\BasicPixelShader_d.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Denis Learning\repos\LBEngine2\LBEngine\bin64\BasicVertexShader.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Denis Learning\repos\LBEngine2\LBEngine\bin64\CircleGeometryShader_d.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Denis Learning\repos\LBEngine2\LBEngine\bin64\PixelDopplerShader_d.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Denis Learning\repos\LBEngine2\LBEngine\bin64\MorphingVertexShader.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Denis Learning\repos\LBEngine2\LBEngine\bin64\VertexEllipticalDopplerShader_d.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Denis Learning\repos\LBEngine2\LBEngine\bin64\VertexEllipticalExpFogShader_d.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Denis Learning\repos\LBEngine2\LBEngine\bin64\VertexEllipticalExpSqFogShader_d.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Denis Learning\repos\LBEngine2\LBEngine\bin64\VertexHyperbolicExpFogShader_d.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Denis Learning\repos\LBEngine2\LBEngine\bin64\VertexSphericalDopplerShader_d.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Denis Learning\repos\LBEngine2\LBEngine\bin64\VertexSphericalExpFogShader_d.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Denis Learning\repos\LBEngine2\LBEngine\bin64\VertexSphericalExpSqFogShader_d.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Denis Learning\repos\LBEngine2\LBEngine\bin64\VertexToricExpFogShader_d.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Denis Learning\repos\LBEngine2\LBEngine\bin64\GeometryShader.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

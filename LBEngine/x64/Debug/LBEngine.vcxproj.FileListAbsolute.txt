@@ -1,0 +1,4 @@
+C:\Denis Learning\repos\LBEngine2\LBEngine\bin64\xapobaseredist.pdb
+C:\Denis Learning\repos\LBEngine2\LBEngine\bin64\xaudio2_9redist.pdb
+C:\Denis Learning\repos\LBEngine2\LBEngine\bin64\xaudio2_9redist.dll
+C:\Denis Learning\repos\LBEngine2\LBEngine\x64\Debug\LBEngine.vcxproj.CopyComplete

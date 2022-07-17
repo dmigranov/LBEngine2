@@ -404,8 +404,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="ClassDiagram.cd" />
-    <None Include="NewClassDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Linking Info.txt" />

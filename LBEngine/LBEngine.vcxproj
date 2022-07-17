@@ -41,6 +41,7 @@
     <ClCompile Include="src\InputComponent.cpp" />
     <ClCompile Include="src\InputSystem.cpp" />
     <ClCompile Include="src\MeshComponentFactory.cpp" />
+    <ClCompile Include="src\Scene.cpp" />
     <ClCompile Include="src\Sound.cpp" />
     <ClCompile Include="src\SphericalDopplerEffect.cpp" />
     <ClCompile Include="src\SphericalExpFogPointEffect.cpp" />
@@ -81,7 +82,6 @@
     </ClCompile>
     <ClCompile Include="src\TextDrawer.cpp" />
     <ClCompile Include="src\Texture.cpp" />
-    <ClCompile Include="Scene.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="inc\ActionSystem.h" />

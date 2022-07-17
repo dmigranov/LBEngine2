@@ -25,9 +25,6 @@
     <ClCompile Include="Scene.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Entity.cpp">
-      <Filter>Исходные файлы\Entities</Filter>
-    </ClCompile>
     <ClCompile Include="System.cpp">
       <Filter>Исходные файлы\Systems</Filter>
     </ClCompile>
@@ -66,9 +63,6 @@
     </ClCompile>
     <ClCompile Include="src\SphericalTransformComponent.cpp">
       <Filter>Исходные файлы\Components</Filter>
-    </ClCompile>
-    <ClCompile Include="Effect.cpp">
-      <Filter>Исходные файлы\Effects</Filter>
     </ClCompile>
     <ClCompile Include="src\SphericalCameraComponent.cpp">
       <Filter>Исходные файлы\Components</Filter>
@@ -171,6 +165,12 @@
     </ClCompile>
     <ClCompile Include="src\TransformComponent.cpp">
       <Filter>Исходные файлы\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Entity.cpp">
+      <Filter>Исходные файлы\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Effect.cpp">
+      <Filter>Исходные файлы\Effects</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

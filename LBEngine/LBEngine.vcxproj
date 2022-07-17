@@ -19,8 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Effect.cpp" />
-    <ClCompile Include="Entity.cpp" />
     <ClCompile Include="inc\CameraActionSystem.cpp" />
     <ClCompile Include="inc\MeshComponent.cpp" />
     <ClCompile Include="InputSystem.cpp" />
@@ -31,6 +29,8 @@
     <ClCompile Include="src\ComponentTypeManager.cpp" />
     <ClCompile Include="src\DopplerComponent.cpp" />
     <ClCompile Include="src\DynamicSound.cpp" />
+    <ClCompile Include="src\Effect.cpp" />
+    <ClCompile Include="src\Entity.cpp" />
     <ClCompile Include="src\EuclideanMeshComponentFactory.cpp" />
     <ClCompile Include="src\HyperbolicCameraComponent.cpp" />
     <ClCompile Include="src\HyperbolicControlSystem.cpp" />

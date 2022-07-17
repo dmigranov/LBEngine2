@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <FxCompile Include="Data\Shaders\BasicPixelShader.hlsl" />
+    <FxCompile Include="Data\Shaders\BasicVertexShader.hlsl" />
+    <FxCompile Include="Data\Shaders\CircleGeometryShader.hlsl" />
+    <FxCompile Include="Data\Shaders\PixelDopplerShader.hlsl" />
+    <FxCompile Include="Data\Shaders\MorphingVertexShader.hlsl" />
+    <FxCompile Include="Data\Shaders\VertexEllipticalDopplerShader.hlsl" />
+    <FxCompile Include="Data\Shaders\VertexEllipticalExpFogShader.hlsl" />
+    <FxCompile Include="Data\Shaders\VertexEllipticalExpSqFogShader.hlsl" />
+    <FxCompile Include="Data\Shaders\VertexHyperbolicExpFogShader.hlsl" />
+    <FxCompile Include="Data\Shaders\VertexSphericalDopplerShader.hlsl" />
+    <FxCompile Include="Data\Shaders\VertexSphericalExpFogShader.hlsl" />
+    <FxCompile Include="Data\Shaders\VertexSphericalExpSqFogShader.hlsl" />
+    <FxCompile Include="Data\Shaders\VertexToricExpFogShader.hlsl" />
+    <FxCompile Include="Data\Shaders\GeometryShader.hlsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BitmapComponent.cpp" />
+    <ClCompile Include="CameraComponent.cpp" />
+    <ClCompile Include="Component.cpp" />
+    <ClCompile Include="Effect.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="inc\CameraActionSystem.cpp" />
+    <ClCompile Include="inc\MeshComponent.cpp" />
+    <ClCompile Include="InputComponent.cpp" />
+    <ClCompile Include="InputSystem.cpp" />
+    <ClCompile Include="src\BitmapRenderSystem.cpp" />
+    <ClCompile Include="src\ComponentTypeManager.cpp" />
+    <ClCompile Include="src\DopplerComponent.cpp" />
+    <ClCompile Include="src\DynamicSound.cpp" />
+    <ClCompile Include="src\EuclideanMeshComponentFactory.cpp" />
+    <ClCompile Include="src\HyperbolicCameraComponent.cpp" />
+    <ClCompile Include="src\HyperbolicControlSystem.cpp" />
+    <ClCompile Include="src\HyperbolicExpFogEffect.cpp" />
+    <ClCompile Include="src\HyperbolicMath.cpp" />
+    <ClCompile Include="src\HyperbolicMeshComponentFactory.cpp" />
+    <ClCompile Include="src\HyperbolicRenderSystem.cpp" />
+    <ClCompile Include="src\HyperbolicTransformComponent.cpp" />
+    <ClCompile Include="src\MeshComponentFactory.cpp" />
+    <ClCompile Include="src\Sound.cpp" />
+    <ClCompile Include="src\SphericalDopplerEffect.cpp" />
+    <ClCompile Include="src\SphericalExpFogPointEffect.cpp" />
+    <ClCompile Include="src\SphericalRenderingComponent.cpp" />
+    <ClCompile Include="src\TextPrintingSystem.cpp" />
+    <ClCompile Include="src\SphericalCameraComponent.cpp" />
+    <ClCompile Include="src\SphericalControlSystem.cpp" />
+    <ClCompile Include="src\SphericalEffect.cpp" />
+    <ClCompile Include="src\SphericalExpFogEffect.cpp" />
+    <ClCompile Include="src\MeshLoader.cpp" />
+    <ClCompile Include="src\ResourceManager.cpp" />
+    <ClCompile Include="src\SphericalMath.cpp" />
+    <ClCompile Include="src\SphericalMeshComponentFactory.cpp" />
+    <ClCompile Include="src\SphericalRenderSystem.cpp" />
+    <ClCompile Include="src\SphericalTransformComponent.cpp" />
+    <ClCompile Include="src\TextComponent.cpp" />
+    <ClCompile Include="src\Timer.cpp" />
+    <ClCompile Include="src\ToricControlSystem.cpp" />
+    <ClCompile Include="src\ToricExpFogEffect.cpp" />
+    <ClCompile Include="src\ToricRenderSystem.cpp" />
+    <ClCompile Include="src\ToricTransformComponent.cpp" />
+    <ClCompile Include="src\UpdaterComponent.cpp" />
+    <ClCompile Include="src\UpdaterSystem.cpp" />
+    <ClCompile Include="src\WalkComponent.cpp" />
+    <ClCompile Include="System.cpp" />
+    <ClCompile Include="TransformComponent.cpp" />
+    <ClCompile Include="src\Drawer2D.cpp" />
+    <ClCompile Include="src\FPSCounter.cpp" />
+    <ClCompile Include="src\Game.cpp" />
+    <ClCompile Include="src\GameWindows.cpp" />
+    <ClCompile Include="src\pch.cpp" />
+    <ClCompile Include="src\SphericalMeshLoader.cpp" />
+    <ClCompile Include="src\TextDrawer.cpp" />
+    <ClCompile Include="src\Texture.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="TransformUpdateSystem.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\BitmapComponent.h" />
+    <ClInclude Include="inc\BitmapRenderSystem.h" />
+    <ClInclude Include="inc\CameraActionSystem.h" />
+    <ClInclude Include="inc\CameraComponent.h" />
+    <ClInclude Include="inc\Common.h" />
+    <ClInclude Include="inc\Component.h" />
+    <ClInclude Include="inc\ComponentTypeManager.h" />
+    <ClInclude Include="inc\DopplerComponent.h" />
+    <ClInclude Include="inc\Drawer2D.h" />
+    <ClInclude Include="inc\DynamicSound.h" />
+    <ClInclude Include="inc\Effect.h" />
+    <ClInclude Include="inc\Entity.h" />
+    <ClInclude Include="inc\EuclideanMeshComponentFactory.h" />
+    <ClInclude Include="inc\font.h" />
+    <ClInclude Include="inc\FPSCounter.h" />
+    <ClInclude Include="inc\Game.h" />
+    <ClInclude Include="inc\Geometries\HyperbolicGeometry.h" />
+    <ClInclude Include="inc\Geometries\SphericalEllipticGeometry.h" />
+    <ClInclude Include="inc\Geometries\ToricGeometry.h" />
+    <ClInclude Include="inc\HyperbolicCameraComponent.h" />
+    <ClInclude Include="inc\HyperbolicControlSystem.h" />
+    <ClInclude Include="inc\HyperbolicExpFogEffect.h" />
+    <ClInclude Include="inc\HyperbolicMeshComponentFactory.h" />
+    <ClInclude Include="inc\HyperbolicRenderSystem.h" />
+    <ClInclude Include="inc\HyperbolicTransformComponent.h" />
+    <ClInclude Include="inc\InputComponent.h" />
+    <ClInclude Include="inc\InputSystem.h" />
+    <ClInclude Include="inc\Mesh.h" />
+    <ClInclude Include="inc\MeshComponentFactory.h" />
+    <ClInclude Include="inc\Sound.h" />
+    <ClInclude Include="inc\SphericalDopplerEffect.h" />
+    <ClInclude Include="inc\SphericalExpFogPointEffect.h" />
+    <ClInclude Include="inc\SphericalRenderingComponent.h" />
+    <ClInclude Include="inc\TextPrintingSystem.h" />
+    <ClInclude Include="inc\SphericalCameraComponent.h" />
+    <ClInclude Include="inc\SphericalControlSystem.h" />
+    <ClInclude Include="inc\SphericalEffect.h" />
+    <ClInclude Include="inc\SphericalExpFogEffect.h" />
+    <ClInclude Include="inc\MeshLoader.h" />
+    <ClInclude Include="inc\ResourceManager.h" />
+    <ClInclude Include="inc\Scene.h" />
+    <ClInclude Include="inc\SphericalCube.h" />
+    <ClInclude Include="inc\SphericalEllipsoid.h" />
+    <ClInclude Include="inc\SphericalMeshComponentFactory.h" />
+    <ClInclude Include="inc\SphericalOctahedron.h" />
+    <ClInclude Include="inc\SphericalMesh.h" />
+    <ClInclude Include="inc\pch.h" />
+    <ClInclude Include="inc\SphericalMeshLoader.h" />
+    <ClInclude Include="inc\SphericalRenderSystem.h" />
+    <ClInclude Include="inc\SphericalSphere.h" />
+    <ClInclude Include="inc\SphericalTransformComponent.h" />
+    <ClInclude Include="inc\System.h" />
+    <ClInclude Include="inc\MeshComponent.h" />
+    <ClInclude Include="inc\TextComponent.h" />
+    <ClInclude Include="inc\TextDrawer.h" />
+    <ClInclude Include="inc\Texture.h" />
+    <ClInclude Include="inc\Timer.h" />
+    <ClInclude Include="inc\ToricControlSystem.h" />
+    <ClInclude Include="inc\ToricExpFogEffect.h" />
+    <ClInclude Include="inc\ToricRenderSystem.h" />
+    <ClInclude Include="inc\ToricTransformComponent.h" />
+    <ClInclude Include="inc\TransformComponent.h" />
+    <ClInclude Include="inc\TransformUpdateSystem.h" />
+    <ClInclude Include="inc\UpdaterComponent.h" />
+    <ClInclude Include="inc\UpdaterSystem.h" />
+    <ClInclude Include="inc\WalkComponent.h" />
+    <ClInclude Include="inc\ActionSystem.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="NewClassDiagram.cd" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Linking Info.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Systems">
+      <UniqueIdentifier>{4b4dd65e-688e-4df9-be81-944062d4fb7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+</Project>

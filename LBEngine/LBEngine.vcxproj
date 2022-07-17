@@ -19,16 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BitmapComponent.cpp" />
-    <ClCompile Include="CameraComponent.cpp" />
-    <ClCompile Include="Component.cpp" />
     <ClCompile Include="Effect.cpp" />
     <ClCompile Include="Entity.cpp" />
     <ClCompile Include="inc\CameraActionSystem.cpp" />
     <ClCompile Include="inc\MeshComponent.cpp" />
-    <ClCompile Include="InputComponent.cpp" />
     <ClCompile Include="InputSystem.cpp" />
+    <ClCompile Include="src\BitmapComponent.cpp" />
     <ClCompile Include="src\BitmapRenderSystem.cpp" />
+    <ClCompile Include="src\CameraComponent.cpp" />
+    <ClCompile Include="src\Component.cpp" />
     <ClCompile Include="src\ComponentTypeManager.cpp" />
     <ClCompile Include="src\DopplerComponent.cpp" />
     <ClCompile Include="src\DynamicSound.cpp" />
@@ -40,6 +39,7 @@
     <ClCompile Include="src\HyperbolicMeshComponentFactory.cpp" />
     <ClCompile Include="src\HyperbolicRenderSystem.cpp" />
     <ClCompile Include="src\HyperbolicTransformComponent.cpp" />
+    <ClCompile Include="src\InputComponent.cpp" />
     <ClCompile Include="src\MeshComponentFactory.cpp" />
     <ClCompile Include="src\Sound.cpp" />
     <ClCompile Include="src\SphericalDopplerEffect.cpp" />
@@ -62,11 +62,11 @@
     <ClCompile Include="src\ToricExpFogEffect.cpp" />
     <ClCompile Include="src\ToricRenderSystem.cpp" />
     <ClCompile Include="src\ToricTransformComponent.cpp" />
+    <ClCompile Include="src\TransformComponent.cpp" />
     <ClCompile Include="src\UpdaterComponent.cpp" />
     <ClCompile Include="src\UpdaterSystem.cpp" />
     <ClCompile Include="src\WalkComponent.cpp" />
     <ClCompile Include="System.cpp" />
-    <ClCompile Include="TransformComponent.cpp" />
     <ClCompile Include="src\Drawer2D.cpp" />
     <ClCompile Include="src\FPSCounter.cpp" />
     <ClCompile Include="src\Game.cpp" />

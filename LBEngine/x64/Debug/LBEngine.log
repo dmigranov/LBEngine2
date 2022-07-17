@@ -1,1 +1,41 @@
-﻿  LBEngine.vcxproj -> C:\Denis Learning\repos\LBEngine2\LBEngine\bin64\LBEngined.lib
+﻿  BitmapComponent.cpp
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\BitmapComponent.cpp(70,6): warning C4101: i: неиспользованная локальная переменная
+  CameraComponent.cpp
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\CameraComponent.cpp(56,77): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\CameraComponent.cpp(56,64): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\CameraComponent.cpp(56,54): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\CameraComponent.cpp(56,46): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\CameraComponent.cpp(58,96): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\CameraComponent.cpp(58,83): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\CameraComponent.cpp(58,69): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\CameraComponent.cpp(58,57): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  Component.cpp
+  InputComponent.cpp
+  TransformComponent.cpp
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\TransformComponent.cpp(11,41): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\TransformComponent.cpp(11,38): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\TransformComponent.cpp(11,35): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\TransformComponent.cpp(19,41): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\TransformComponent.cpp(19,38): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\TransformComponent.cpp(19,35): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\TransformComponent.cpp(19,64): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\TransformComponent.cpp(19,60): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\TransformComponent.cpp(19,56): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\TransformComponent.cpp(20,18): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\TransformComponent.cpp(20,14): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\TransformComponent.cpp(20,10): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\TransformComponent.cpp(37,35): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\TransformComponent.cpp(37,32): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\TransformComponent.cpp(37,29): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\TransformComponent.cpp(51,31): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\TransformComponent.cpp(51,27): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\TransformComponent.cpp(51,23): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\TransformComponent.cpp(63,37): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\TransformComponent.cpp(63,33): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\TransformComponent.cpp(63,29): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\TransformComponent.cpp(68,35): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\TransformComponent.cpp(68,30): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\TransformComponent.cpp(68,23): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  Создание кода...
+  LBEngine.vcxproj -> C:\Denis Learning\repos\LBEngine2\LBEngine\bin64\LBEngined.lib

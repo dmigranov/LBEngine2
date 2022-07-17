@@ -25,12 +25,6 @@
     <ClCompile Include="Scene.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Component.cpp">
-      <Filter>Исходные файлы\Components</Filter>
-    </ClCompile>
-    <ClCompile Include="TransformComponent.cpp">
-      <Filter>Исходные файлы\Components</Filter>
-    </ClCompile>
     <ClCompile Include="Entity.cpp">
       <Filter>Исходные файлы\Entities</Filter>
     </ClCompile>
@@ -43,9 +37,6 @@
     <ClCompile Include="src\ResourceManager.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="CameraComponent.cpp">
-      <Filter>Исходные файлы\Components</Filter>
-    </ClCompile>
     <ClCompile Include="src\MeshLoader.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
@@ -57,12 +48,6 @@
     </ClCompile>
     <ClCompile Include="src\BitmapRenderSystem.cpp">
       <Filter>Исходные файлы\Systems</Filter>
-    </ClCompile>
-    <ClCompile Include="BitmapComponent.cpp">
-      <Filter>Исходные файлы\Components</Filter>
-    </ClCompile>
-    <ClCompile Include="InputComponent.cpp">
-      <Filter>Исходные файлы\Components</Filter>
     </ClCompile>
     <ClCompile Include="src\WalkComponent.cpp">
       <Filter>Исходные файлы\Components</Filter>
@@ -171,6 +156,21 @@
     </ClCompile>
     <ClCompile Include="src\DynamicSound.cpp">
       <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CameraComponent.cpp">
+      <Filter>Исходные файлы\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component.cpp">
+      <Filter>Исходные файлы\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BitmapComponent.cpp">
+      <Filter>Исходные файлы\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InputComponent.cpp">
+      <Filter>Исходные файлы\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TransformComponent.cpp">
+      <Filter>Исходные файлы\Components</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

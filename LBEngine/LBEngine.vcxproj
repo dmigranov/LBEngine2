@@ -21,7 +21,6 @@
   <ItemGroup>
     <ClCompile Include="inc\CameraActionSystem.cpp" />
     <ClCompile Include="inc\MeshComponent.cpp" />
-    <ClCompile Include="InputSystem.cpp" />
     <ClCompile Include="src\BitmapComponent.cpp" />
     <ClCompile Include="src\BitmapRenderSystem.cpp" />
     <ClCompile Include="src\CameraComponent.cpp" />
@@ -40,11 +39,13 @@
     <ClCompile Include="src\HyperbolicRenderSystem.cpp" />
     <ClCompile Include="src\HyperbolicTransformComponent.cpp" />
     <ClCompile Include="src\InputComponent.cpp" />
+    <ClCompile Include="src\InputSystem.cpp" />
     <ClCompile Include="src\MeshComponentFactory.cpp" />
     <ClCompile Include="src\Sound.cpp" />
     <ClCompile Include="src\SphericalDopplerEffect.cpp" />
     <ClCompile Include="src\SphericalExpFogPointEffect.cpp" />
     <ClCompile Include="src\SphericalRenderingComponent.cpp" />
+    <ClCompile Include="src\System.cpp" />
     <ClCompile Include="src\TextPrintingSystem.cpp" />
     <ClCompile Include="src\SphericalCameraComponent.cpp" />
     <ClCompile Include="src\SphericalControlSystem.cpp" />
@@ -63,10 +64,10 @@
     <ClCompile Include="src\ToricRenderSystem.cpp" />
     <ClCompile Include="src\ToricTransformComponent.cpp" />
     <ClCompile Include="src\TransformComponent.cpp" />
+    <ClCompile Include="src\TransformUpdateSystem.cpp" />
     <ClCompile Include="src\UpdaterComponent.cpp" />
     <ClCompile Include="src\UpdaterSystem.cpp" />
     <ClCompile Include="src\WalkComponent.cpp" />
-    <ClCompile Include="System.cpp" />
     <ClCompile Include="src\Drawer2D.cpp" />
     <ClCompile Include="src\FPSCounter.cpp" />
     <ClCompile Include="src\Game.cpp" />
@@ -81,7 +82,6 @@
     <ClCompile Include="src\TextDrawer.cpp" />
     <ClCompile Include="src\Texture.cpp" />
     <ClCompile Include="Scene.cpp" />
-    <ClCompile Include="TransformUpdateSystem.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="inc\ActionSystem.h" />

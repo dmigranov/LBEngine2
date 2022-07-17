@@ -1,4 +1,6 @@
-﻿#pragma once
+﻿//TODO: filters!
+
+#pragma once
 
 #include "Geometries/ToricGeometry.h"
 

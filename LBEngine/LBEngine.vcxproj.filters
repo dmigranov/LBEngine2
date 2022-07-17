@@ -25,20 +25,11 @@
     <ClCompile Include="Scene.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="System.cpp">
-      <Filter>Исходные файлы\Systems</Filter>
-    </ClCompile>
-    <ClCompile Include="TransformUpdateSystem.cpp">
-      <Filter>Исходные файлы\Systems</Filter>
-    </ClCompile>
     <ClCompile Include="src\ResourceManager.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="src\MeshLoader.cpp">
       <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="InputSystem.cpp">
-      <Filter>Исходные файлы\Systems</Filter>
     </ClCompile>
     <ClCompile Include="src\Timer.cpp">
       <Filter>Исходные файлы</Filter>
@@ -171,6 +162,15 @@
     </ClCompile>
     <ClCompile Include="src\Effect.cpp">
       <Filter>Исходные файлы\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System.cpp">
+      <Filter>Исходные файлы\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InputSystem.cpp">
+      <Filter>Исходные файлы\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TransformUpdateSystem.cpp">
+      <Filter>Исходные файлы\Systems</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

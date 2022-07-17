@@ -72,29 +72,29 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>..\NEEngine\packages\directxtk_desktop_2017.2022.3.1.1\include;..\NEEngine\inc;$(IncludePath)</IncludePath>
-    <LibraryPath>..\NEEngine\packages\directxtk_desktop_2017.2022.3.1.1\native\lib\x64\Release;..\NEEngine\bin64;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\LBEngine\packages\directxtk_desktop_2017.2022.3.1.1\include;..\LBEngine\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>..\LBEngine\packages\directxtk_desktop_2017.2022.3.1.1\native\lib\x64\Release;..\LBEngine\bin64;$(LibraryPath)</LibraryPath>
     <OutDir>bin64\</OutDir>
     <TargetName>$(ProjectName)</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>..\NEEngine\packages\directxtk_desktop_2017.2022.3.1.1\include;..\NEEngine\inc;$(IncludePath)</IncludePath>
-    <LibraryPath>..\NEEngine\bin;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\LBEngine\packages\directxtk_desktop_2017.2022.3.1.1\include;..\LBEngine\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>..\LBEngine\bin;$(LibraryPath)</LibraryPath>
     <OutDir>bin</OutDir>
     <TargetName>$(ProjectName)d</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>..\NEEngine\packages\directxtk_desktop_2017.2022.3.1.1\include;..\NEEngine\inc;$(IncludePath)</IncludePath>
-    <LibraryPath>..\NEEngine\packages\directxtk_desktop_2017.2022.3.1.1\native\lib\x64\Debug;..\NEEngine\bin64;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\LBEngine\packages\directxtk_desktop_2017.2022.3.1.1\include;..\LBEngine\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>..\LBEngine\packages\directxtk_desktop_2017.2022.3.1.1\native\lib\x64\Debug;..\LBEngine\bin64;$(LibraryPath)</LibraryPath>
     <OutDir>bin64\</OutDir>
     <TargetName>$(ProjectName)d</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>..\NEEngine\packages\directxtk_desktop_2017.2022.3.1.1\include;..\NEEngine\inc;$(IncludePath)</IncludePath>
-    <LibraryPath>..\NEEngine\packages\directxtk_desktop_2017.2022.3.1.1\native\lib\Win32\Release;..\NEEngine\bin;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\LBEngine\packages\directxtk_desktop_2017.2022.3.1.1\include;..\LBEngine\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>..\LBEngine\packages\directxtk_desktop_2017.2022.3.1.1\native\lib\Win32\Release;..\LBEngine\bin;$(LibraryPath)</LibraryPath>
     <OutDir>bin</OutDir>
     <TargetName>$(ProjectName)</TargetName>
   </PropertyGroup>
@@ -114,7 +114,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>NEEngine.lib;DirectXTK.lib;DirectXTKAudioWin7.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>LBEngine.lib;DirectXTK.lib;DirectXTKAudioWin7.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalOptions>/ENTRY:"mainCRTStartup" %(AdditionalOptions)</AdditionalOptions>
     </Link>
   </ItemDefinitionGroup>
@@ -130,7 +130,7 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>NEEngined.lib;DirectXTK.lib;DirectXTKAudioWin7.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>LBEngined.lib;DirectXTK.lib;DirectXTKAudioWin7.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalOptions>/ENTRY:"mainCRTStartup" %(AdditionalOptions)</AdditionalOptions>
     </Link>
   </ItemDefinitionGroup>
@@ -146,7 +146,7 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>NEEngined.lib;DirectXTK.lib;DirectXTKAudioWin7.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>LBEngined.lib;DirectXTK.lib;DirectXTKAudioWin7.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalOptions>/ENTRY:"mainCRTStartup" %(AdditionalOptions)</AdditionalOptions>
     </Link>
   </ItemDefinitionGroup>
@@ -166,7 +166,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>NEEngine.lib;DirectXTK.lib;DirectXTKAudioWin7.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>LBEngine.lib;DirectXTK.lib;DirectXTKAudioWin7.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalOptions>/ENTRY:"mainCRTStartup" %(AdditionalOptions)</AdditionalOptions>
     </Link>
   </ItemDefinitionGroup>
@@ -200,14 +200,14 @@
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
-    <Import Project="..\NEEngine\packages\boost.1.72.0.0\build\boost.targets" Condition="Exists('..\NEEngine\packages\boost.1.72.0.0\build\boost.targets')" />
-    <Import Project="..\NEEngine\packages\Microsoft.XAudio2.Redist.1.2.8\build\native\Microsoft.XAudio2.Redist.targets" Condition="Exists('..\NEEngine\packages\Microsoft.XAudio2.Redist.1.2.8\build\native\Microsoft.XAudio2.Redist.targets')" />
+    <Import Project="..\LBEngine\packages\boost.1.72.0.0\build\boost.targets" Condition="Exists('..\LBEngine\packages\boost.1.72.0.0\build\boost.targets')" />
+    <Import Project="..\LBEngine\packages\Microsoft.XAudio2.Redist.1.2.8\build\native\Microsoft.XAudio2.Redist.targets" Condition="Exists('..\LBEngine\packages\Microsoft.XAudio2.Redist.1.2.8\build\native\Microsoft.XAudio2.Redist.targets')" />
   </ImportGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\NEEngine\packages\boost.1.72.0.0\build\boost.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\NEEngine\packages\boost.1.72.0.0\build\boost.targets'))" />
-    <Error Condition="!Exists('..\NEEngine\packages\Microsoft.XAudio2.Redist.1.2.8\build\native\Microsoft.XAudio2.Redist.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\NEEngine\packages\Microsoft.XAudio2.Redist.1.2.8\build\native\Microsoft.XAudio2.Redist.targets'))" />
+    <Error Condition="!Exists('..\LBEngine\packages\boost.1.72.0.0\build\boost.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\LBEngine\packages\boost.1.72.0.0\build\boost.targets'))" />
+    <Error Condition="!Exists('..\LBEngine\packages\Microsoft.XAudio2.Redist.1.2.8\build\native\Microsoft.XAudio2.Redist.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\LBEngine\packages\Microsoft.XAudio2.Redist.1.2.8\build\native\Microsoft.XAudio2.Redist.targets'))" />
   </Target>
 </Project>

@@ -1,1 +1,0 @@
-dot -Grankdir="TB" -Tpng -o inherit_graph_4_new.png -Tcmapx -o inherit_graph_4.map inherit_graph_4.dot

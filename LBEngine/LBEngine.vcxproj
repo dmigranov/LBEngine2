@@ -78,7 +78,6 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">pch.h</PrecompiledHeaderFile>
     </ClCompile>
-    <ClCompile Include="src\SphericalMeshLoader.cpp" />
     <ClCompile Include="src\TextDrawer.cpp" />
     <ClCompile Include="src\Texture.cpp" />
     <ClCompile Include="Scene.cpp" />
@@ -127,15 +126,9 @@
     <ClInclude Include="inc\MeshLoader.h" />
     <ClInclude Include="inc\ResourceManager.h" />
     <ClInclude Include="inc\Scene.h" />
-    <ClInclude Include="inc\SphericalCube.h" />
-    <ClInclude Include="inc\SphericalEllipsoid.h" />
     <ClInclude Include="inc\SphericalMeshComponentFactory.h" />
-    <ClInclude Include="inc\SphericalOctahedron.h" />
-    <ClInclude Include="inc\SphericalMesh.h" />
     <ClInclude Include="inc\pch.h" />
-    <ClInclude Include="inc\SphericalMeshLoader.h" />
     <ClInclude Include="inc\SphericalRenderSystem.h" />
-    <ClInclude Include="inc\SphericalSphere.h" />
     <ClInclude Include="inc\SphericalTransformComponent.h" />
     <ClInclude Include="inc\System.h" />
     <ClInclude Include="inc\MeshComponent.h" />

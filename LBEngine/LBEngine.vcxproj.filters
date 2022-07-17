@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  
   <ItemGroup>
     <ClCompile Include="src\Game.cpp">
       <Filter>Исходные файлы</Filter>
@@ -73,9 +72,6 @@
     </ClCompile>
     <ClCompile Include="src\ComponentTypeManager.cpp">
       <Filter>Исходные файлы\Components</Filter>
-    </ClCompile>
-    <ClCompile Include="src\SphericalMeshLoader.cpp">
-      <Filter>Исходные файлы\Meshes\Spherical</Filter>
     </ClCompile>
     <ClCompile Include="src\SphericalRenderSystem.cpp">
       <Filter>Исходные файлы\Systems</Filter>
@@ -187,20 +183,8 @@
     <ClInclude Include="inc\TextDrawer.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="inc\SphericalMeshLoader.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
     <ClInclude Include="inc\Mesh.h">
       <Filter>Файлы заголовков\Meshes</Filter>
-    </ClInclude>
-    <ClInclude Include="inc\SphericalCube.h">
-      <Filter>Файлы заголовков\Meshes\Spherical</Filter>
-    </ClInclude>
-    <ClInclude Include="inc\SphericalMesh.h">
-      <Filter>Файлы заголовков\Meshes\Spherical</Filter>
-    </ClInclude>
-    <ClInclude Include="inc\SphericalOctahedron.h">
-      <Filter>Файлы заголовков\Meshes\Spherical</Filter>
     </ClInclude>
     <ClInclude Include="inc\Drawer2D.h">
       <Filter>Файлы заголовков</Filter>
@@ -208,14 +192,8 @@
     <ClInclude Include="inc\Texture.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="inc\SphericalSphere.h">
-      <Filter>Файлы заголовков\Meshes\Spherical</Filter>
-    </ClInclude>
     <ClInclude Include="inc\FPSCounter.h">
       <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="inc\SphericalEllipsoid.h">
-      <Filter>Файлы заголовков\Meshes\Spherical</Filter>
     </ClInclude>
     <ClInclude Include="inc\font.h">
       <Filter>Файлы ресурсов</Filter>
@@ -462,9 +440,6 @@
     </Filter>
     <Filter Include="Data\Shaders\Elliptical">
       <UniqueIdentifier>{6a0c3b28-243b-4135-a316-e74236d95f35}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Файлы заголовков\Meshes\Spherical">
-      <UniqueIdentifier>{c2c10979-b0ac-4dc7-b6ef-bbb5eeafe61c}</UniqueIdentifier>
     </Filter>
     <Filter Include="Исходные файлы\Meshes\Spherical">
       <UniqueIdentifier>{ba669908-5fd2-497e-be17-d82fcb051298}</UniqueIdentifier>

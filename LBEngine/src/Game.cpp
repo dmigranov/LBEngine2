@@ -4,7 +4,6 @@
 #include "Texture.h"
 #include "Drawer2D.h"
 #include "TextDrawer.h"
-#include "SphericalMeshLoader.h"
 
 #include "MeshComponent.h"
 #include "TransformComponent.h"

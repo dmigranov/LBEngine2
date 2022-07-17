@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LBEngine", "LBEngine.vcxproj", "{802A2142-3802-46EF-946B-42BFD9754DCA}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LBEngine2", "LBEngine.vcxproj", "{802A2142-3802-46EF-946B-42BFD9754DCA}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameExample", "..\GameExample\GameExample.vcxproj", "{040C97A7-C5D3-471B-8306-AE97DE1744BE}"
 	ProjectSection(ProjectDependencies) = postProject

@@ -171,28 +171,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="FriedmannSystems.cpp" />
-    <ClCompile Include="FriedmannWindow.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="main_raytracing.cpp" />
-    <ClCompile Include="RandomSphericalGenerator.cpp" />
-    <ClCompile Include="SelectionSystem.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="main_friedmann.cpp_" />
-    <None Include="main_friedmann_fps.cpp_" />
-    <None Include="main_hyperb.cpp_" />
-    <None Include="main_regular_sphere.cpp_" />
-    <None Include="main_sphere.cpp_" />
-    <None Include="main_sphere_fps.cpp_" />
-    <None Include="main_torus.cpp_" />
-    <None Include="main_torus_fps.cpp_" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="cube creation code.txt" />
-    <Text Include="experiment visibility.txt" />
-    <Text Include="old_system_selection.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h" />

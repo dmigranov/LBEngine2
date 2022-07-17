@@ -1,6 +1,1 @@
-﻿  Game.cpp
-C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
-C:\Denis Learning\repos\LBEngine2\LBEngine\src\Game.cpp(48,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-C:\Denis Learning\repos\LBEngine2\LBEngine\src\Game.cpp(432,25): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-C:\Denis Learning\repos\LBEngine2\LBEngine\src\Game.cpp(470,13): warning C4101: hr: неиспользованная локальная переменная
-  LBEngine.vcxproj -> C:\Denis Learning\repos\LBEngine2\LBEngine\bin64\LBEngined.lib
+﻿  LBEngine.vcxproj -> C:\Denis Learning\repos\LBEngine2\LBEngine\bin64\LBEngined.lib

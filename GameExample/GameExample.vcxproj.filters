@@ -18,59 +18,9 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="RandomSphericalGenerator.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="FriedmannWindow.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="main_raytracing.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="FriedmannSystems.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="SelectionSystem.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="main_sphere.cpp_">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="main_torus.cpp_">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="main_hyperb.cpp_">
-      <Filter>Source Files</Filter>
-    </None>
     <None Include="packages.config" />
-    <None Include="main_friedmann.cpp_">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="main_regular_sphere.cpp_">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="main_sphere_fps.cpp_">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="main_torus_fps.cpp_">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="main_friedmann_fps.cpp_">
-      <Filter>Source Files</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="cube creation code.txt">
-      <Filter>Resource Files</Filter>
-    </Text>
-    <Text Include="experiment visibility.txt">
-      <Filter>Source Files</Filter>
-    </Text>
-    <Text Include="old_system_selection.txt">
-      <Filter>Resource Files</Filter>
-    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="RandomSphericalGenerator.h">

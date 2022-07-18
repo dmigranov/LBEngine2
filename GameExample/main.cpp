@@ -6,6 +6,7 @@
 #include "InputComponent.h"
 #include "Entity.h"
 
+
 // Components
 #include "ComponentTypeManager.h"
 
@@ -31,6 +32,8 @@
 #include "CameraActionSystem.h"
 #include "PhysicsSystem.h"
 #include "CollisionSystem.h"
+
+#include "Texture.h"
 
 using namespace DirectX;
 using namespace DirectX::SimpleMath;
@@ -65,8 +68,8 @@ int main(int argc, char* argv[])
         componentTypeManager->SetTypeAdditionEnded();
     }
 
-    Texture* brickTexture = resourceManager->CreateTexture(L"brick.dds");
-    Texture* characterTexture = resourceManager->CreateTexture(L"char2.dds");
+    Texture* brickTexture = new Texture(L"brick.dds");
+    Texture* characterTexture = new Texture(L"char2.dds");
 
     scene->AddSystem(new InputSystem());
     scene->AddSystem(new BitmapRenderSystem());

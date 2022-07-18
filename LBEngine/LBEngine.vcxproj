@@ -25,9 +25,12 @@
     <ClCompile Include="src\BitmapComponent.cpp" />
     <ClCompile Include="src\BitmapRenderSystem.cpp" />
     <ClCompile Include="src\CameraComponent.cpp" />
+    <ClCompile Include="src\CircleCollisionComponent.cpp" />
     <ClCompile Include="src\CollisionComponent.cpp" />
+    <ClCompile Include="src\CollisionSystem.cpp" />
     <ClCompile Include="src\Component.cpp" />
     <ClCompile Include="src\ComponentTypeManager.cpp" />
+    <ClCompile Include="src\ContactManifold.cpp" />
     <ClCompile Include="src\DopplerComponent.cpp" />
     <ClCompile Include="src\DynamicSound.cpp" />
     <ClCompile Include="src\Effect.cpp" />
@@ -45,6 +48,8 @@
     <ClCompile Include="src\InputComponent.cpp" />
     <ClCompile Include="src\InputSystem.cpp" />
     <ClCompile Include="src\MeshComponentFactory.cpp" />
+    <ClCompile Include="src\PhysicsComponent.cpp" />
+    <ClCompile Include="src\PhysicsSystem.cpp" />
     <ClCompile Include="src\Scene.cpp" />
     <ClCompile Include="src\Sound.cpp" />
     <ClCompile Include="src\SphericalDopplerEffect.cpp" />
@@ -94,11 +99,14 @@
     <ClInclude Include="inc\BitmapRenderSystem.h" />
     <ClInclude Include="inc\CameraActionSystem.h" />
     <ClInclude Include="inc\CameraComponent.h" />
+    <ClInclude Include="inc\CircleCollisionComponent.h" />
     <ClInclude Include="inc\CollisionComponent.h" />
+    <ClInclude Include="inc\CollisionComponentType.h" />
     <ClInclude Include="inc\CollisionSystem.h" />
     <ClInclude Include="inc\Common.h" />
     <ClInclude Include="inc\Component.h" />
     <ClInclude Include="inc\ComponentTypeManager.h" />
+    <ClInclude Include="inc\ContactManifold.h" />
     <ClInclude Include="inc\DopplerComponent.h" />
     <ClInclude Include="inc\Drawer2D.h" />
     <ClInclude Include="inc\DynamicSound.h" />

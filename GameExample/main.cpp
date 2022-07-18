@@ -1,7 +1,4 @@
-﻿//TODO: filters!
-//TODO: add 2 to the project name and directory!
-
-#pragma once
+﻿#pragma once
 
 #include "Geometries/ToricGeometry.h"
 

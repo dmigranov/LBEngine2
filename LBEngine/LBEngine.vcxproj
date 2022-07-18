@@ -101,6 +101,7 @@
     <ClInclude Include="inc\Entity.h" />
     <ClInclude Include="inc\EuclideanMeshComponentFactory.h" />
     <ClInclude Include="inc\font.h" />
+    <ClInclude Include="inc\Force.h" />
     <ClInclude Include="inc\FPSCounter.h" />
     <ClInclude Include="inc\Game.h" />
     <ClInclude Include="inc\Geometries\HyperbolicGeometry.h" />
@@ -112,6 +113,7 @@
     <ClInclude Include="inc\HyperbolicMeshComponentFactory.h" />
     <ClInclude Include="inc\HyperbolicRenderSystem.h" />
     <ClInclude Include="inc\HyperbolicTransformComponent.h" />
+    <ClInclude Include="inc\Impulse.h" />
     <ClInclude Include="inc\InputComponent.h" />
     <ClInclude Include="inc\InputSystem.h" />
     <ClInclude Include="inc\Mesh.h" />

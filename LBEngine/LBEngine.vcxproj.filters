@@ -357,6 +357,18 @@
     <ClInclude Include="inc\MeshComponent.h">
       <Filter>Файлы заголовков\Components</Filter>
     </ClInclude>
+    <ClInclude Include="inc\PlayerComponent.h">
+      <Filter>Файлы заголовков\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\AABBCollisionComponent.h">
+      <Filter>Файлы заголовков\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\CollisionComponent.h">
+      <Filter>Файлы заголовков\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\PhysicsComponent.h">
+      <Filter>Файлы заголовков\Components</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="Data\Shaders\BasicVertexShader.hlsl">

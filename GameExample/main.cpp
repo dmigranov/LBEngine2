@@ -145,12 +145,12 @@ int main(int argc, char* argv[])
     auto cameraComponent = new CameraComponent(false);
     cameraComponent->SetOrthogonalWidth(30.);
 
-    cameraEntity->SetTransform(cameraTransform);
+    cameraEntity->AddComponent<TransformComponent>(cameraTransform);
     cameraEntity->AddComponent<CameraComponent>(cameraComponent);
     cameraEntity->AddComponent<InputComponent>(new InputComponent());
 
     scene->AddEntity(cameraEntity);
-    scene->SetCamera(cameraEntity);
+    scene->SetCamera(cameraEntity, cameraComponent);
 
     auto brickCollisionComponent = new AABBCollisionComponent([](Entity* pThisEntity, Entity* pOtherEntity, double deltaTime) {}, -0.5, -0.5, 0.5, 0.5);
     auto brickPhysicsComponent = new PhysicsComponent(10.);
@@ -174,7 +174,7 @@ int main(int argc, char* argv[])
             auto e = bricks[j] = new Entity();
             auto t = transforms[j] = new TransformComponent(ColumnNumber, RowNumber, 1, 0, 0, 0, 1, 1, 1);
             j++;
-            e->SetTransform(t);
+            e->AddComponent<TransformComponent>(t);
             e->AddComponent<BitmapComponent>(brickBitmap);
             e->AddComponent<PhysicsComponent>(brickPhysicsComponent);
             e->AddComponent<CollisionComponent>(brickCollisionComponent);
@@ -229,7 +229,7 @@ int main(int argc, char* argv[])
 
     Entity* character = new Entity();
 
-    character->SetTransform(charTransform);
+    character->AddComponent<TransformComponent>(charTransform);
     character->AddComponent<BitmapComponent>(charBitmap);
     character->AddComponent<WalkComponent>(charWalkComponent);
     character->AddComponent<PhysicsComponent>(charPhysicsComponent);

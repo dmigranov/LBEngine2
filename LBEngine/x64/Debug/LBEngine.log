@@ -1,3 +1,6 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (LBEngine2.vcxproj).  Это может привести к ошибкам очистки и перестроения.
-  TextDrawer.cpp
+  Game.cpp
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\Game.cpp(48,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\Game.cpp(472,13): warning C4101: hr: неиспользованная локальная переменная
   LBEngine.vcxproj -> C:\Denis Learning\repos\LBEngine2\LBEngine\bin64\LBEngined.lib

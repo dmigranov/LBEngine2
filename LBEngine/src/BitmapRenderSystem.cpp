@@ -17,20 +17,17 @@ BitmapRenderSystem::BitmapRenderSystem() : System()
 }
 
 void BitmapRenderSystem::Execute(double)
-{
-
-	//TODO: uncomment 
-
-	/*
+{	
 	std::stable_sort(m_opaqueEntities.begin(), m_opaqueEntities.end(), [](Entity* e1, Entity* e2) -> bool {
-		return e1->GetTransform()->GetPosition().z < e2->GetTransform()->GetPosition().z;
+		return e1->GetComponent<TransformComponent>()->GetPosition().z < e2->GetComponent<TransformComponent>()->GetPosition().z;
 	});	//сортирует по убыванию: сначала большие z...
 
 	std::stable_sort(m_nonOpaqueEntities.begin(), m_nonOpaqueEntities.end(), [](Entity* e1, Entity* e2) -> bool {
-		return e1->GetTransform()->GetPosition().z > e2->GetTransform()->GetPosition().z;
+		return e1->GetComponent<TransformComponent>()->GetPosition().z > e2->GetComponent<TransformComponent>()->GetPosition().z;
 	});	//сортирует по возрастанию: сначала меньшие z...
 
-	 //todo: восстановить в новой версии "евклидова" движка
+	//TODO: fix 
+	//Сначала тут создать шейдеры, потом вынести их в эффект
 
 	auto& game = Game::GetInstance();
 	auto pDeviceContext = game.GetDeviceContext();
@@ -71,8 +68,7 @@ void BitmapRenderSystem::Execute(double)
 	for (auto pEntity : m_nonOpaqueEntities)
 	{
 		Render(pEntity, pDeviceContext, pConstantBuffer);
-	}	
-	*/
+	}
 }
 
 void BitmapRenderSystem::AddEntity(Entity* pEntity)

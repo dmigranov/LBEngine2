@@ -91,6 +91,7 @@
     <ClInclude Include="inc\CameraActionSystem.h" />
     <ClInclude Include="inc\CameraComponent.h" />
     <ClInclude Include="inc\CollisionComponent.h" />
+    <ClInclude Include="inc\CollisionSystem.h" />
     <ClInclude Include="inc\Common.h" />
     <ClInclude Include="inc\Component.h" />
     <ClInclude Include="inc\ComponentTypeManager.h" />
@@ -119,6 +120,7 @@
     <ClInclude Include="inc\Mesh.h" />
     <ClInclude Include="inc\MeshComponentFactory.h" />
     <ClInclude Include="inc\PhysicsComponent.h" />
+    <ClInclude Include="inc\PhysicsSystem.h" />
     <ClInclude Include="inc\PlayerComponent.h" />
     <ClInclude Include="inc\Sound.h" />
     <ClInclude Include="inc\SphericalDopplerEffect.h" />

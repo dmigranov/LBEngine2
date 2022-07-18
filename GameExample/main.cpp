@@ -80,7 +80,7 @@ int main(int argc, char* argv[])
 
 
     scene->AddSystem(new ActionSystem<InputComponent, TransformComponent, WalkComponent, PhysicsComponent>([](Entity* pEntity, double deltaTime) {
-        auto pTransform = pEntity->GetTransform();
+        auto pTransform = pEntity->GetComponent<TransformComponent>();
         auto pInput = pEntity->GetComponent<InputComponent>();
         auto kbs = pInput->GetKeyboardState();
         auto ms = pInput->GetMouseState();

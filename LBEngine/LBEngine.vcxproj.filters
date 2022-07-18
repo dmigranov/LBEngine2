@@ -375,6 +375,12 @@
     <ClInclude Include="inc\Force.h">
       <Filter>Файлы заголовков\Components</Filter>
     </ClInclude>
+    <ClInclude Include="inc\PhysicsSystem.h">
+      <Filter>Файлы заголовков\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\CollisionSystem.h">
+      <Filter>Файлы заголовков\Components</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="Data\Shaders\BasicVertexShader.hlsl">

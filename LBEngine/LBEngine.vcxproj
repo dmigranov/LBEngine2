@@ -21,9 +21,11 @@
   <ItemGroup>
     <ClCompile Include="inc\CameraActionSystem.cpp" />
     <ClCompile Include="inc\MeshComponent.cpp" />
+    <ClCompile Include="src\AABBCollisionComponent.cpp" />
     <ClCompile Include="src\BitmapComponent.cpp" />
     <ClCompile Include="src\BitmapRenderSystem.cpp" />
     <ClCompile Include="src\CameraComponent.cpp" />
+    <ClCompile Include="src\CollisionComponent.cpp" />
     <ClCompile Include="src\Component.cpp" />
     <ClCompile Include="src\ComponentTypeManager.cpp" />
     <ClCompile Include="src\DopplerComponent.cpp" />
@@ -31,6 +33,7 @@
     <ClCompile Include="src\Effect.cpp" />
     <ClCompile Include="src\Entity.cpp" />
     <ClCompile Include="src\EuclideanMeshComponentFactory.cpp" />
+    <ClCompile Include="src\Force.cpp" />
     <ClCompile Include="src\HyperbolicCameraComponent.cpp" />
     <ClCompile Include="src\HyperbolicControlSystem.cpp" />
     <ClCompile Include="src\HyperbolicExpFogEffect.cpp" />
@@ -38,6 +41,7 @@
     <ClCompile Include="src\HyperbolicMeshComponentFactory.cpp" />
     <ClCompile Include="src\HyperbolicRenderSystem.cpp" />
     <ClCompile Include="src\HyperbolicTransformComponent.cpp" />
+    <ClCompile Include="src\Impulse.cpp" />
     <ClCompile Include="src\InputComponent.cpp" />
     <ClCompile Include="src\InputSystem.cpp" />
     <ClCompile Include="src\MeshComponentFactory.cpp" />

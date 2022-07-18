@@ -172,6 +172,18 @@
     <ClCompile Include="src\ToricTransformComponent.cpp">
       <Filter>Исходные файлы\Components\Non-Euclidean</Filter>
     </ClCompile>
+    <ClCompile Include="src\Impulse.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Force.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CollisionComponent.cpp">
+      <Filter>Исходные файлы\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AABBCollisionComponent.cpp">
+      <Filter>Исходные файлы\Components</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="inc\Game.h">

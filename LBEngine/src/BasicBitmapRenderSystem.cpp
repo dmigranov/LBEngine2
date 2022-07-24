@@ -15,7 +15,26 @@ BasicBitmapRenderSystem::BasicBitmapRenderSystem() : System()
 	SubscribeToComponentType<TransformComponent>();
 	SubscribeToComponentType<BitmapComponent>();
 
+	Initialize();
+
 	m_isDrawing = true;
+}
+
+void BasicBitmapRenderSystem::Initialize()
+{
+	// shaders
+	//g_d3dVertexShader = game.CreateVertexShaderFromBytecode(TODO1, sizeof(TODO1));
+	//g_d3dPixelShader = game.CreatePixelShaderFromBytecode(TODO2, sizeof(TODO2));
+
+	//input assembly:
+	D3D11_INPUT_ELEMENT_DESC vertexLayoutDesc[] =
+	{
+		{ "POSITION", 0, DXGI_FORMAT_R32G32B32A32_FLOAT, 0, offsetof(HyperbolicMeshComponentFactory::VertexData, Position), D3D11_INPUT_PER_VERTEX_DATA, 0 },
+		{ "TEXCOORD", 0, DXGI_FORMAT_R32G32_FLOAT, 0, D3D11_APPEND_ALIGNED_ELEMENT, D3D11_INPUT_PER_VERTEX_DATA, 0 },
+	};
+	//Once an input-layout object is created from a shader signature, the input-layout object can be reused with any other shader that has an identical input signature (semantics included). 
+	g_d3dInputLayout = game.CreateInputLayout(vertexLayoutDesc, _countof(vertexLayoutDesc), TODO1, sizeof(TODO1));
+
 }
 
 void BasicBitmapRenderSystem::Execute(double)

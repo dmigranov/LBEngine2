@@ -29,6 +29,8 @@ private:
 
 
     // Need to be filled in an effect
+
+    void Initialize();
     ID3D11InputLayout* g_d3dInputLayout = nullptr;
 
     ID3D11VertexShader* g_d3dVertexShader = nullptr;

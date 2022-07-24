@@ -27,7 +27,7 @@
 // Systems
 #include "TransformUpdateSystem.h"
 #include "InputSystem.h"
-#include "BitmapRenderSystem.h"
+#include "BasicBitmapRenderSystem.h"
 #include "ActionSystem.h"
 #include "CameraActionSystem.h"
 #include "PhysicsSystem.h"

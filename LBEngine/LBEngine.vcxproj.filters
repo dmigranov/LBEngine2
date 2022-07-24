@@ -31,9 +31,6 @@
     <ClCompile Include="src\Timer.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="src\BasicBitmapRenderSystem.cpp">
-      <Filter>Исходные файлы\Systems</Filter>
-    </ClCompile>
     <ClCompile Include="src\WalkComponent.cpp">
       <Filter>Исходные файлы\Components</Filter>
     </ClCompile>
@@ -202,6 +199,9 @@
     <ClCompile Include="src\BasicBitmapEffect.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="src\BasicBitmapRenderSystem.cpp">
+      <Filter>Исходные файлы\Systems</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="inc\Game.h">
@@ -260,9 +260,6 @@
     </ClInclude>
     <ClInclude Include="inc\CameraComponent.h">
       <Filter>Файлы заголовков\Components</Filter>
-    </ClInclude>
-    <ClInclude Include="inc\BasicBitmapRenderSystem.h">
-      <Filter>Файлы заголовков\Systems</Filter>
     </ClInclude>
     <ClInclude Include="inc\InputComponent.h">
       <Filter>Файлы заголовков\Components</Filter>
@@ -422,6 +419,9 @@
     </ClInclude>
     <ClInclude Include="inc\BasicBitmapEffect.h">
       <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\BasicBitmapRenderSystem.h">
+      <Filter>Файлы заголовков\Systems</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

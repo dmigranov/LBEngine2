@@ -41,6 +41,40 @@ void BasicBitmapRenderSystem::Initialize()
 	//Once an input-layout object is created from a shader signature, the input-layout object can be reused with any other shader that has an identical input signature (semantics included). 
 	g_d3dInputLayout = game.CreateInputLayout(vertexLayoutDesc, _countof(vertexLayoutDesc), g_vs, sizeof(g_vs));
 
+	//buffers:
+	D3D11_BUFFER_DESC constantBufferDesc;
+	ZeroMemory(&constantBufferDesc, sizeof(D3D11_BUFFER_DESC));
+	constantBufferDesc.BindFlags = D3D11_BIND_CONSTANT_BUFFER;
+	constantBufferDesc.CPUAccessFlags = 0;
+	constantBufferDesc.Usage = D3D11_USAGE_DEFAULT;
+
+	constantBufferDesc.ByteWidth = sizeof(PerObjectVSConstantBuffer);
+	g_d3dVSConstantBuffers[CB_Object] = game.CreateBuffer(constantBufferDesc);
+
+	constantBufferDesc.ByteWidth = sizeof(PerFrameVSConstantBuffer);
+	g_d3dVSConstantBuffers[CB_Frame] = game.CreateBuffer(constantBufferDesc);
+
+	constantBufferDesc.ByteWidth = sizeof(PerApplicationVSConstantBuffer);
+	g_d3dVSConstantBuffers[CB_Application] = game.CreateBuffer(constantBufferDesc);
+
+	//sampler (for texture)
+	D3D11_SAMPLER_DESC samplerDesc;
+	ZeroMemory(&samplerDesc, sizeof(D3D11_SAMPLER_DESC));
+	samplerDesc.Filter = D3D11_FILTER_MIN_MAG_MIP_LINEAR;
+	samplerDesc.AddressU = D3D11_TEXTURE_ADDRESS_WRAP;
+	samplerDesc.AddressV = D3D11_TEXTURE_ADDRESS_WRAP;
+	samplerDesc.AddressW = D3D11_TEXTURE_ADDRESS_WRAP;
+	samplerDesc.MipLODBias = 0.0f;
+	samplerDesc.MaxAnisotropy = 1;
+	samplerDesc.ComparisonFunc = D3D11_COMPARISON_ALWAYS;
+	samplerDesc.BorderColor[0] = 0;
+	samplerDesc.BorderColor[1] = 0;
+	samplerDesc.BorderColor[2] = 0;
+	samplerDesc.BorderColor[3] = 0;
+	samplerDesc.MinLOD = 0;
+	samplerDesc.MaxLOD = D3D11_FLOAT32_MAX;
+
+	g_d3dSamplerState = game.CreateSamplerState(samplerDesc);
 }
 
 void BasicBitmapRenderSystem::Execute(double)

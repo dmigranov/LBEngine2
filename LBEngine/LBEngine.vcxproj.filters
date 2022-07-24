@@ -467,6 +467,9 @@
     <FxCompile Include="Data\Shaders\VertexSphericalDopplerShader.hlsl">
       <Filter>Data\Shaders\Spherical</Filter>
     </FxCompile>
+    <FxCompile Include="Data\Shaders\BasicFogPixelShader.hlsl">
+      <Filter>Data\Shaders</Filter>
+    </FxCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

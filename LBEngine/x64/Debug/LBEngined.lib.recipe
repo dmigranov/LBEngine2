@@ -3,6 +3,9 @@
   <ProjectOutputs />
   <ContentFiles>
     <ContentFile>
+      <FullPath>C:\Denis Learning\repos\LBEngine2\LBEngine\bin64\BasicFogPixelShader.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
       <FullPath>C:\Denis Learning\repos\LBEngine2\LBEngine\bin64\BasicPixelShader_d.cso</FullPath>
     </ContentFile>
     <ContentFile>

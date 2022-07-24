@@ -1,14 +1,15 @@
 #include "pch.h"
-#include "BitmapRenderSystem.h"
+#include "BasicBitmapRenderSystem.h"
 #include "BitmapComponent.h"
 #include "Entity.h"
 #include "TransformComponent.h"
 #include "Texture.h"
 
-
 #include "Game.h"
 
-BitmapRenderSystem::BitmapRenderSystem() : System()
+//TODO: implement BasicBitmapEffect
+
+BasicBitmapRenderSystem::BasicBitmapRenderSystem() : System()
 {
 	SubscribeToComponentType<TransformComponent>();
 	SubscribeToComponentType<BitmapComponent>();
@@ -16,7 +17,7 @@ BitmapRenderSystem::BitmapRenderSystem() : System()
 	m_isDrawing = true;
 }
 
-void BitmapRenderSystem::Execute(double)
+void BasicBitmapRenderSystem::Execute(double)
 {	
 	std::stable_sort(m_opaqueEntities.begin(), m_opaqueEntities.end(), [](Entity* e1, Entity* e2) -> bool {
 		return e1->GetComponent<TransformComponent>()->GetPosition().z < e2->GetComponent<TransformComponent>()->GetPosition().z;
@@ -71,7 +72,7 @@ void BitmapRenderSystem::Execute(double)
 	}
 }
 
-void BitmapRenderSystem::AddEntity(Entity* pEntity)
+void BasicBitmapRenderSystem::AddEntity(Entity* pEntity)
 {
 	BitmapComponent* bitmapComponent = pEntity->GetComponent<BitmapComponent>();
 
@@ -84,7 +85,7 @@ void BitmapRenderSystem::AddEntity(Entity* pEntity)
 
 }
 
-void BitmapRenderSystem::Render(Entity* pEntity, ID3D11DeviceContext* pDeviceContext, ID3D11Resource* pConstantBuffer)
+void BasicBitmapRenderSystem::Render(Entity* pEntity, ID3D11DeviceContext* pDeviceContext, ID3D11Resource* pConstantBuffer)
 {
 	BitmapComponent* p_bitmapComponent = pEntity->GetComponent<BitmapComponent>();
 	TransformComponent* p_transformComponent = pEntity->GetComponent<TransformComponent>();

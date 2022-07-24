@@ -1,10 +1,10 @@
 #pragma once
 #include "System.h"
-class BitmapRenderSystem :
+class BasicBitmapRenderSystem :
     public System
 {
 public:
-    BitmapRenderSystem();
+    BasicBitmapRenderSystem();
     virtual void Execute(double deltaTime) override;
 private:
     virtual void AddEntity(Entity* pEntity) override;

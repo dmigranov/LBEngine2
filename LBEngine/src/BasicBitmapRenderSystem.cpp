@@ -94,23 +94,26 @@ void BasicBitmapRenderSystem::Execute(double)
 	auto pDeviceContext = game.GetDeviceContext();
 	auto pDevice = game.GetDevice();
 
-	auto pConstantBuffer = game.g_d3dVSConstantBuffers[2];
-
 	//Input Assembler Stage - common
-	pDeviceContext->IASetInputLayout(game.g_d3dInputLayout);
+	pDeviceContext->IASetInputLayout(g_d3dInputLayout);
 
 	//Vertex Shader Stage
-	pDeviceContext->VSSetShader(game.g_d3dVertexShader, nullptr, 0);
-	pDeviceContext->VSSetConstantBuffers(0, 3, game.g_d3dVSConstantBuffers);
+	game.VSSetShader(g_d3dVertexShader);
+	game.VSSetConstantBuffers(3, g_d3dVSConstantBuffers);
 
 	//Rasterizer Stage
 	pDeviceContext->RSSetState(game.g_d3dRasterizerState);
 	pDeviceContext->RSSetViewports(1, &game.g_Viewport);
 
 	//Pixel Shader Stage
-	pDeviceContext->PSSetShader(game.g_d3dPixelShader, nullptr, 0);
-	//g_d3dDeviceContext->PSSetConstantBuffers(0, 1, &g_d3dPSConstantBuffer);
-	pDeviceContext->PSSetSamplers(0, 1, &game.g_d3dSamplerState);
+	game.PSSetSampler(g_d3dSamplerState);
+	game.PSSetShader(g_d3dPixelShader);
+	if (m_pTexture != nullptr)
+	{     //Pixel Shader Stafe - unique 4 every stage
+		auto shaderResource = m_pTexture->GetTexture();
+		game.PSSetShaderResources(1, &shaderResource);
+	}
+	game.PSSetConstantBuffers(1, &g_d3dPSConstantBuffer);
 
 	//Output Merger Stage (merges the output from the pixel shader onto the color and depth buffers)
 	pDeviceContext->OMSetRenderTargets(1, &game.g_d3dRenderTargetView, game.g_d3dDepthStencilView);

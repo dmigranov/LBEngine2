@@ -7,6 +7,10 @@
 #include "Texture.h"
 #include "EuclideanMeshComponentFactory.h"
 
+// Shaders
+#include "VertexShader.h"
+#include "PixelShader.h"
+
 #include "Game.h"
 
 // TODO: implement universal BitmapRenderSystem
@@ -25,8 +29,8 @@ BasicBitmapRenderSystem::BasicBitmapRenderSystem() : System(), game(Game::GetIns
 void BasicBitmapRenderSystem::Initialize()
 {
 	// shaders
-	g_d3dVertexShader = game.CreateVertexShaderFromBytecode(TODO1, sizeof(TODO1));
-	g_d3dPixelShader = game.CreatePixelShaderFromBytecode(TODO2, sizeof(TODO2));
+	g_d3dVertexShader = game.CreateVertexShaderFromBytecode(g_vs, sizeof(g_vs));
+	g_d3dPixelShader = game.CreatePixelShaderFromBytecode(g_ps, sizeof(g_ps));
 
 	//input assembly:
 	D3D11_INPUT_ELEMENT_DESC vertexLayoutDesc[] =
@@ -35,7 +39,7 @@ void BasicBitmapRenderSystem::Initialize()
 		{ "TEXCOORD", 0, DXGI_FORMAT_R32G32_FLOAT, 0, D3D11_APPEND_ALIGNED_ELEMENT, D3D11_INPUT_PER_VERTEX_DATA, 0 },
 	};
 	//Once an input-layout object is created from a shader signature, the input-layout object can be reused with any other shader that has an identical input signature (semantics included). 
-	g_d3dInputLayout = game.CreateInputLayout(vertexLayoutDesc, _countof(vertexLayoutDesc), TODO1, sizeof(TODO1));
+	g_d3dInputLayout = game.CreateInputLayout(vertexLayoutDesc, _countof(vertexLayoutDesc), g_vs, sizeof(g_vs));
 
 }
 

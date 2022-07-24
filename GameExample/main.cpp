@@ -49,6 +49,8 @@ int main(int argc, char* argv[])
 {
     //todo: Component* -> Component&  ?
 
+    // крест на персонаже - это прицел
+
     Game& game = Game::GetInstance();
     game.InitializeEngine(800, 600, L"Test game", true, false, false);
     game.SetBackgroundColor(DirectX::Colors::PowderBlue);   //todo: перенести

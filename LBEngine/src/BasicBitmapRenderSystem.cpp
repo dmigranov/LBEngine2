@@ -2,10 +2,12 @@
 #include "BasicBitmapRenderSystem.h"
 
 #include "BitmapComponent.h"
-#include "Entity.h"
 #include "TransformComponent.h"
+#include "CameraComponent.h"
+#include "Entity.h"
 #include "Texture.h"
 #include "EuclideanMeshComponentFactory.h"
+#include "Scene.h"
 
 // Shaders
 #include "VertexShader.h"
@@ -102,6 +104,12 @@ void BasicBitmapRenderSystem::Execute(double)
 	//Vertex Shader Stage
 	game.VSSetShader(g_d3dVertexShader);
 	game.VSSetConstantBuffers(3, g_d3dVSConstantBuffers);
+	//todo: UpdateSubresources (two!)
+	const auto& proj = game.GetScene()->GetCamera()->GetComponent<CameraComponent>()->GetProj();
+	game.UpdateSubresource(g_d3dVSConstantBuffers[0], &proj);
+	const auto& view = game.GetScene()->GetCamera()->GetComponent<TransformComponent>()->GetView();
+	game.UpdateSubresource(g_d3dVSConstantBuffers[1], &view);
+
 
 	//Rasterizer Stage
 	pDeviceContext->RSSetState(game.g_d3dRasterizerState);

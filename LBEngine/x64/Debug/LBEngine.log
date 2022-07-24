@@ -1,14 +1,12 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (LBEngine2.vcxproj).  Это может привести к ошибкам очистки и перестроения.
-  compilation object save succeeded; see C:\Denis Learning\repos\LBEngine2\LBEngine\bin64\BasicFogPixelShader.cso
-  compilation header save succeeded; see C:\Denis Learning\repos\LBEngine2\LBEngine\inc\PixelShader.h
-  compilation object save succeeded; see C:\Denis Learning\repos\LBEngine2\LBEngine\bin64\BasicPixelShader_d.cso
+  Microsoft (R) Direct3D Shader Compiler 10.1
+  Copyright (C) 2013 Microsoft. All rights reserved.
+  
+  compilation header save succeeded; see C:\Denis Learning\repos\LBEngine2\LBEngine\inc\VertexShader.h
+  compilation object save succeeded; see C:\Denis Learning\repos\LBEngine2\LBEngine\bin64\BasicVertexShader.cso
   BasicBitmapRenderSystem.cpp
 C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
   HyperbolicExpFogEffect.cpp
-C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
-  SphericalExpFogEffect.cpp
-C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
-  ToricExpFogEffect.cpp
 C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
   Создание кода...
   LBEngine.vcxproj -> C:\Denis Learning\repos\LBEngine2\LBEngine\bin64\LBEngined.lib

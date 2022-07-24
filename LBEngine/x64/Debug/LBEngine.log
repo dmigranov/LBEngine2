@@ -1,6 +1,275 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (LBEngine2.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  CameraActionSystem.cpp
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\CameraActionSystem.cpp(21,60): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\CameraActionSystem.cpp(21,1): warning C4305: аргумент: усечение из "double" в "float"
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\CameraActionSystem.cpp(24,46): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\CameraActionSystem.cpp(25,46): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  BasicBitmapEffect.cpp
+  BasicBitmapRenderSystem.cpp
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\BasicBitmapRenderSystem.cpp(38,30): error C2039: "g_d3dVSConstantBuffers": не является членом "Game".
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\Entity.h(12): message : см. объявление "Game"
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\BasicBitmapRenderSystem.cpp(41,40): error C2039: "g_d3dInputLayout": не является членом "Game".
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\Entity.h(12): message : см. объявление "Game"
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\BasicBitmapRenderSystem.cpp(44,35): error C2039: "g_d3dVertexShader": не является членом "Game".
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\Entity.h(12): message : см. объявление "Game"
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\BasicBitmapRenderSystem.cpp(45,50): error C2039: "g_d3dVSConstantBuffers": не является членом "Game".
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\Entity.h(12): message : см. объявление "Game"
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\BasicBitmapRenderSystem.cpp(45,72): error C2660: ID3D11DeviceContext::VSSetConstantBuffers: функция не принимает 2 аргументов
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\d3d11.h(7486,40): message : см. объявление "ID3D11DeviceContext::VSSetConstantBuffers"
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\BasicBitmapRenderSystem.cpp(52,35): error C2039: "g_d3dPixelShader": не является членом "Game".
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\Entity.h(12): message : см. объявление "Game"
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\BasicBitmapRenderSystem.cpp(54,44): error C2039: "g_d3dSamplerState": не является членом "Game".
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\Entity.h(12): message : см. объявление "Game"
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\BasicBitmapRenderSystem.cpp(54,61): error C2660: ID3D11DeviceContext::PSSetSamplers: функция не принимает 2 аргументов
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\d3d11.h(7509,40): message : см. объявление "ID3D11DeviceContext::PSSetSamplers"
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\BasicBitmapRenderSystem.cpp(65,50): error C3536: pConstantBuffer: не может использоваться до инициализации
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\BasicBitmapRenderSystem.cpp(65,50): error C2664: "void BasicBitmapRenderSystem::Render(Entity *,ID3D11DeviceContext *,ID3D11Resource *)": невозможно преобразовать аргумент 3 из "int" в "ID3D11Resource *"
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\BasicBitmapRenderSystem.cpp(65,35): message : Для преобразования из целого типа в указатель требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\BasicBitmapRenderSystem.h(30,10): message : см. объявление "BasicBitmapRenderSystem::Render"
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\BasicBitmapRenderSystem.cpp(72,50): error C2664: "void BasicBitmapRenderSystem::Render(Entity *,ID3D11DeviceContext *,ID3D11Resource *)": невозможно преобразовать аргумент 3 из "int" в "ID3D11Resource *"
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\BasicBitmapRenderSystem.cpp(72,35): message : Для преобразования из целого типа в указатель требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\BasicBitmapRenderSystem.h(30,10): message : см. объявление "BasicBitmapRenderSystem::Render"
+  BitmapComponent.cpp
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\BitmapComponent.cpp(70,6): warning C4101: i: неиспользованная локальная переменная
+  CollisionSystem.cpp
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+  DynamicSound.cpp
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\DynamicSound.cpp(17,24): warning C4244: =: преобразование "double" в "size_t", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\DynamicSound.cpp(34,1): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  Entity.cpp
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+  EuclideanMeshComponentFactory.cpp
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(21,40): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(32,37): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(31,25): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(30,37): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(43,40): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(70,46): warning C4267: инициализация: преобразование из "size_t" в "WORD"; возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(84,116): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(100,39): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(100,30): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(100,20): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(101,38): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(101,30): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(101,20): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(102,38): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(102,29): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(102,20): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(103,37): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(103,29): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(103,20): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(106,39): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(106,30): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(106,20): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(107,39): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(107,30): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(107,20): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(108,38): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(108,30): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(108,20): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(109,38): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(109,30): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(109,20): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(112,38): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(112,29): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(112,20): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(113,37): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(113,29): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(113,20): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(114,38): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(114,29): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(114,20): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(115,37): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(115,29): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(115,20): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(118,38): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(118,30): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(118,20): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(119,38): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(119,30): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(119,20): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(120,37): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(120,29): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(120,20): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(121,37): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(121,29): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(121,20): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(124,39): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(124,30): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(124,20): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(125,39): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(125,30): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(125,20): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(126,38): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(126,29): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(126,20): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(127,38): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(127,29): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(127,20): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(130,37): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(130,29): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(130,20): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(131,38): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(131,30): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(131,20): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(132,39): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(132,30): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(132,20): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(133,38): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(133,29): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(133,20): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(160,91): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(160,66): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(211,78): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(211,75): warning C4244: аргумент: преобразование "_Ty" в "float", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(211,64): warning C4244: аргумент: преобразование "_Ty" в "float", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(211,53): warning C4244: аргумент: преобразование "_Ty" в "float", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(221,58): warning C4244: аргумент: преобразование "_Ty" в "float", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(221,47): warning C4244: аргумент: преобразование "_Ty" в "float", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\EuclideanMeshComponentFactory.cpp(254,136): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  HyperbolicControlSystem.cpp
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\HyperbolicControlSystem.cpp(41,37): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\HyperbolicControlSystem.cpp(42,39): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\HyperbolicControlSystem.cpp(61,36): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\HyperbolicControlSystem.cpp(61,28): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  HyperbolicExpFogEffect.cpp
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+  HyperbolicMeshComponentFactory.cpp
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\HyperbolicMeshComponentFactory.cpp(23,50): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\HyperbolicMeshComponentFactory.cpp(23,37): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\HyperbolicMeshComponentFactory.cpp(35,17): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\HyperbolicMeshComponentFactory.cpp(34,37): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\HyperbolicMeshComponentFactory.cpp(33,25): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\HyperbolicMeshComponentFactory.cpp(32,37): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\HyperbolicMeshComponentFactory.cpp(45,54): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\HyperbolicMeshComponentFactory.cpp(45,40): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\HyperbolicMeshComponentFactory.cpp(76,46): warning C4267: инициализация: преобразование из "size_t" в "WORD"; возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\HyperbolicMeshComponentFactory.cpp(91,116): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  HyperbolicRenderSystem.cpp
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+  InputSystem.cpp
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+  PhysicsSystem.cpp
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\PhysicsSystem.cpp(47,50): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\PhysicsSystem.cpp(52,70): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\PhysicsSystem.cpp(52,92): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\PhysicsSystem.cpp(56,31): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  Scene.cpp
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+  Sound.cpp
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+  SphericalDopplerEffect.cpp
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+  SphericalExpFogPointEffect.cpp
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+  System.cpp
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+  TextPrintingSystem.cpp
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+  Создание кода...
+  Компиляция...
+  SphericalControlSystem.cpp
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\SphericalControlSystem.cpp(53,36): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\SphericalControlSystem.cpp(54,38): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\SphericalControlSystem.cpp(82,36): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\SphericalControlSystem.cpp(82,32): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\SphericalControlSystem.cpp(82,28): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  SphericalExpFogEffect.cpp
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+  ResourceManager.cpp
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+  SphericalMeshComponentFactory.cpp
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\SphericalMeshComponentFactory.cpp(119,17): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\SphericalMeshComponentFactory.cpp(118,24): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\SphericalMeshComponentFactory.cpp(117,24): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\SphericalMeshComponentFactory.cpp(116,24): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\SphericalMeshComponentFactory.cpp(172,49): warning C4267: аргумент: преобразование из "size_t" в "_Ty"; возможна потеря данных
+          with
+          [
+              _Ty=WORD
+          ]
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\SphericalMeshComponentFactory.cpp(173,45): warning C4267: аргумент: преобразование из "size_t" в "_Ty"; возможна потеря данных
+          with
+          [
+              _Ty=WORD
+          ]
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\SphericalMeshComponentFactory.cpp(174,49): warning C4267: аргумент: преобразование из "size_t" в "_Ty"; возможна потеря данных
+          with
+          [
+              _Ty=WORD
+          ]
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\SphericalMeshComponentFactory.cpp(177,49): warning C4267: аргумент: преобразование из "size_t" в "_Ty"; возможна потеря данных
+          with
+          [
+              _Ty=WORD
+          ]
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\SphericalMeshComponentFactory.cpp(178,49): warning C4267: аргумент: преобразование из "size_t" в "_Ty"; возможна потеря данных
+          with
+          [
+              _Ty=WORD
+          ]
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\SphericalMeshComponentFactory.cpp(179,53): warning C4267: аргумент: преобразование из "size_t" в "_Ty"; возможна потеря данных
+          with
+          [
+              _Ty=WORD
+          ]
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\SphericalMeshComponentFactory.cpp(193,116): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  SphericalRenderSystem.cpp
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+  ToricControlSystem.cpp
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\ToricControlSystem.cpp(23,60): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\ToricControlSystem.cpp(23,1): warning C4305: аргумент: усечение из "double" в "float"
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\ToricControlSystem.cpp(26,46): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\ToricControlSystem.cpp(27,46): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  ToricExpFogEffect.cpp
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+  ToricRenderSystem.cpp
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\ToricRenderSystem.cpp(57,58): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\ToricRenderSystem.cpp(57,55): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\ToricRenderSystem.cpp(57,52): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Denis Learning\repos\LBEngine2\LBEngine\src\ToricRenderSystem.cpp(65,10): warning C4101: result: неиспользованная локальная переменная
+  TransformUpdateSystem.cpp
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+  UpdaterSystem.cpp
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
   Game.cpp
 C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
 C:\Denis Learning\repos\LBEngine2\LBEngine\src\Game.cpp(48,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
 C:\Denis Learning\repos\LBEngine2\LBEngine\src\Game.cpp(472,13): warning C4101: hr: неиспользованная локальная переменная
-  LBEngine.vcxproj -> C:\Denis Learning\repos\LBEngine2\LBEngine\bin64\LBEngined.lib
+  GameWindows.cpp
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+  Texture.cpp
+C:\Denis Learning\repos\LBEngine2\LBEngine\inc\FPSCounter.h(17,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+  Создание кода...

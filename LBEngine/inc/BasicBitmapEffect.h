@@ -10,8 +10,6 @@ class BasicBitmapEffect :
     struct PerApplicationVSConstantBuffer
     {
         DirectX::XMMATRIX proj;
-        double density = 0.1;
-        //double pad;
     };
 
     struct PerFrameVSConstantBuffer

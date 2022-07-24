@@ -22,6 +22,7 @@
     <ClCompile Include="inc\CameraActionSystem.cpp" />
     <ClCompile Include="inc\MeshComponent.cpp" />
     <ClCompile Include="src\AABBCollisionComponent.cpp" />
+    <ClCompile Include="src\BasicBitmapEffect.cpp" />
     <ClCompile Include="src\BitmapComponent.cpp" />
     <ClCompile Include="src\BitmapRenderSystem.cpp" />
     <ClCompile Include="src\CameraComponent.cpp" />
@@ -95,6 +96,7 @@
   <ItemGroup>
     <ClInclude Include="inc\AABBCollisionComponent.h" />
     <ClInclude Include="inc\ActionSystem.h" />
+    <ClInclude Include="inc\BasicBitmapEffect.h" />
     <ClInclude Include="inc\BitmapComponent.h" />
     <ClInclude Include="inc\BitmapRenderSystem.h" />
     <ClInclude Include="inc\CameraActionSystem.h" />

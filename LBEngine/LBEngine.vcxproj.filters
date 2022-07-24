@@ -199,6 +199,9 @@
     <ClCompile Include="src\PhysicsSystem.cpp">
       <Filter>Исходные файлы\Systems</Filter>
     </ClCompile>
+    <ClCompile Include="src\BasicBitmapEffect.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="inc\Game.h">
@@ -415,6 +418,9 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="inc\ContactManifold.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\BasicBitmapEffect.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

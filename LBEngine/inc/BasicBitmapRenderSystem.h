@@ -39,8 +39,6 @@ private:
 
     ID3D11SamplerState* g_d3dSamplerState = nullptr;
 
-    Texture* m_pTexture = nullptr;
-
     enum ConstantBuffer
     {
         CB_Application, //The application level constant buffer stores variables that rarely change. 

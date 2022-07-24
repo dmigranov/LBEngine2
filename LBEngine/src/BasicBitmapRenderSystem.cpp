@@ -94,6 +94,8 @@ void BasicBitmapRenderSystem::Execute(double)
 	auto pDeviceContext = game.GetDeviceContext();
 	auto pDevice = game.GetDevice();
 
+	auto pConstantBuffer = g_d3dVSConstantBuffers[2];
+
 	//Input Assembler Stage - common
 	pDeviceContext->IASetInputLayout(g_d3dInputLayout);
 
@@ -108,11 +110,6 @@ void BasicBitmapRenderSystem::Execute(double)
 	//Pixel Shader Stage
 	game.PSSetSampler(g_d3dSamplerState);
 	game.PSSetShader(g_d3dPixelShader);
-	if (m_pTexture != nullptr)
-	{     //Pixel Shader Stafe - unique 4 every stage
-		auto shaderResource = m_pTexture->GetTexture();
-		game.PSSetShaderResources(1, &shaderResource);
-	}
 	game.PSSetConstantBuffers(1, &g_d3dPSConstantBuffer);
 
 	//Output Merger Stage (merges the output from the pixel shader onto the color and depth buffers)
@@ -160,6 +157,8 @@ void BasicBitmapRenderSystem::Render(Entity* pEntity, ID3D11DeviceContext* pDevi
 		// Set vertex buffer stride and offset.
 		stride = sizeof(BitmapComponent::VertexType);
 		offset = 0;
+
+		// TODO: use my methods
 
 		// Set the vertex buffer to active in the input assembler so it can be rendered.
 		pDeviceContext->IASetVertexBuffers(0, 1, &p_bitmapComponent->m_vertexBuffer, &stride, &offset);

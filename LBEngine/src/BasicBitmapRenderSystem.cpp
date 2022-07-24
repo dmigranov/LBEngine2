@@ -104,6 +104,7 @@ void BasicBitmapRenderSystem::Execute(double)
 	//Vertex Shader Stage
 	game.VSSetShader(g_d3dVertexShader);
 	game.VSSetConstantBuffers(3, g_d3dVSConstantBuffers);
+
 	//todo: UpdateSubresources (two!)
 	const auto& proj = game.GetScene()->GetCamera()->GetComponent<CameraComponent>()->GetProj();
 	game.UpdateSubresource(g_d3dVSConstantBuffers[0], &proj);
@@ -129,14 +130,13 @@ void BasicBitmapRenderSystem::Execute(double)
 	//сначала opaque (front-to-back)
 	for (auto pEntity : m_opaqueEntities)
 	{
-		Render(pEntity, pDeviceContext, pConstantBuffer);
+		Render(pEntity, pDeviceContext);
 	}
-
 
 	//затем non opaque (back-to-front)
 	for (auto pEntity : m_nonOpaqueEntities)
 	{
-		Render(pEntity, pDeviceContext, pConstantBuffer);
+		Render(pEntity, pDeviceContext);
 	}
 }
 
@@ -153,7 +153,7 @@ void BasicBitmapRenderSystem::AddEntity(Entity* pEntity)
 
 }
 
-void BasicBitmapRenderSystem::Render(Entity* pEntity, ID3D11DeviceContext* pDeviceContext, ID3D11Resource* pConstantBuffer)
+void BasicBitmapRenderSystem::Render(Entity* pEntity, ID3D11DeviceContext* pDeviceContext)
 {
 	BitmapComponent* p_bitmapComponent = pEntity->GetComponent<BitmapComponent>();
 	TransformComponent* p_transformComponent = pEntity->GetComponent<TransformComponent>();
@@ -165,8 +165,6 @@ void BasicBitmapRenderSystem::Render(Entity* pEntity, ID3D11DeviceContext* pDevi
 		// Set vertex buffer stride and offset.
 		stride = sizeof(BitmapComponent::VertexType);
 		offset = 0;
-
-		// TODO: use my methods
 
 		// Set the vertex buffer to active in the input assembler so it can be rendered.
 		pDeviceContext->IASetVertexBuffers(0, 1, &p_bitmapComponent->m_vertexBuffer, &stride, &offset);
@@ -180,13 +178,13 @@ void BasicBitmapRenderSystem::Render(Entity* pEntity, ID3D11DeviceContext* pDevi
 		Texture* pTexture;
 		if (( pTexture = p_bitmapComponent->m_spriteSheet) != nullptr)
 		{     
-			//Pixel Shader Stafe - unique 4 every stage
+			//Pixel Shader Stae - unique 4 every stage
 			auto shaderResource = pTexture->GetTexture();
-			pDeviceContext->PSSetShaderResources(0, 1, &shaderResource);
+			game.PSSetShaderResources(1, &shaderResource);
 		}
 
 		if(p_transformComponent != nullptr)
-			pDeviceContext->UpdateSubresource(pConstantBuffer, 0, nullptr, &p_transformComponent->GetWorld(), 0, 0);
+			game.UpdateSubresource(g_d3dVSConstantBuffers[2], &p_transformComponent->GetWorld());
 
 		//DRAW
 		pDeviceContext->DrawIndexed(p_bitmapComponent->m_indexCount, 0, 0);

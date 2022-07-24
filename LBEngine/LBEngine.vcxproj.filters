@@ -31,7 +31,7 @@
     <ClCompile Include="src\Timer.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="src\BitmapRenderSystem.cpp">
+    <ClCompile Include="src\BasicBitmapRenderSystem.cpp">
       <Filter>Исходные файлы\Systems</Filter>
     </ClCompile>
     <ClCompile Include="src\WalkComponent.cpp">
@@ -261,7 +261,7 @@
     <ClInclude Include="inc\CameraComponent.h">
       <Filter>Файлы заголовков\Components</Filter>
     </ClInclude>
-    <ClInclude Include="inc\BitmapRenderSystem.h">
+    <ClInclude Include="inc\BasicBitmapRenderSystem.h">
       <Filter>Файлы заголовков\Systems</Filter>
     </ClInclude>
     <ClInclude Include="inc\InputComponent.h">

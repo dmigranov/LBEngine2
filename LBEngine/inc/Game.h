@@ -159,7 +159,7 @@ private:
 
     friend class Scene;
 
-    friend class BitmapRenderSystem;
+    friend class BasicBitmapRenderSystem;
     friend class InputSystem;
 
     friend class Sound;

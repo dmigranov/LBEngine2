@@ -26,7 +26,7 @@ public:
     bool IsOpaque();
 
 private:
-    friend class BitmapRenderSystem;
+    friend class BasicBitmapRenderSystem;
 
     bool InitializeBuffers(ID3D11Device* device);
     bool UpdateBuffers();

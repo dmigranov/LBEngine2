@@ -72,7 +72,7 @@ int main(int argc, char* argv[])
     Texture* characterTexture = new Texture(L"char2.dds");
 
     scene->AddSystem(new InputSystem());
-    scene->AddSystem(new BitmapRenderSystem());
+    scene->AddSystem(new BasicBitmapRenderSystem());
     scene->AddSystem(new PhysicsSystem());
     scene->AddSystem(new CollisionSystem());
 

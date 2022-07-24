@@ -7,7 +7,8 @@
 
 #include "Game.h"
 
-//TODO: implement BasicBitmapEffect
+// TODO: implement universal BitmapRenderSystem
+// and default effect - BasicBitmapEffect
 
 BasicBitmapRenderSystem::BasicBitmapRenderSystem() : System()
 {
